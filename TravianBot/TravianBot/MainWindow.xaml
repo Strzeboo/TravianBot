@@ -3,10 +3,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:TravianBot"
+        xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="StrzeboBot" Height="467.5" Width="581.5">
     <Grid>
-        
+        <Button Name="buttonLogin" Click="buttonLoginOnClick" Content="LOGIN"   Width="120"  Height="24" VerticalAlignment="Center" HorizontalAlignment="Center" BorderBrush="Black" BorderThickness="2" Margin="228,235,226,178"/>
+        <PasswordBox Name="textPasswordBox" PasswordChar="*"  Height="24" Width="120" VerticalAlignment="Center"  HorizontalAlignment="Center"  BorderBrush="Black" BorderThickness="2" Margin="228,201,226,212"/>
+        <TextBox Name="textBoxLogin"  TextWrapping="Wrap" Height="24" Text="Kielbasa"  Width="120" VerticalAlignment="Center"  HorizontalAlignment="Center"  BorderBrush="Black" BorderThickness="2" Margin="228,171,226,242"/>
+
     </Grid>
 </Window>
